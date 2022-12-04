@@ -1,4 +1,4 @@
-resource "aws_security_group" "web" {
+resource "aws_security_group" "websg" {
     ingress {
         from_port = 80
         to_port = 80
